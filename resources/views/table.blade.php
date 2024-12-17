@@ -7,7 +7,7 @@
             <h2 class="text-center text-uppercase"><b><i>Table <span class="text-warning">League </span></i></b></h2>
             <ul class="nav nav-tabs">
               <li class="active"><a data-toggle="tab" href="#home"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg" width="20"/></a></li>
-              <li><a data-toggle="tab" href="#menu1"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/es.svg" width="20"/></a></li>
+              <li class="active"><a data-toggle="tab" href="#menu1"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/es.svg" width="20"/></a></li>
               <li><a data-toggle="tab" href="#menu2"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/it.svg" width="20"/></a></li>
               <li><a data-toggle="tab" href="#menu3"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/de.svg" width="20"/></a></li>
               <li><a data-toggle="tab" href="#menu4"><img alt="Flag of Denmark" class="flag" height="15" src="https://flagicons.lipis.dev/flags/4x3/nl.svg" width="20"/></a></li>
