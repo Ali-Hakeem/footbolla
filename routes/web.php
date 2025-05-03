@@ -32,6 +32,7 @@ Route::get('/table', function () {
         return view ('table'); });         
 
 Route::get('/',[AppController::class, 'index']);
+Route::get('/home',[AppController::class, 'index']);
 Route::get('/player/search',[AppController::class, 'search']);
 Route::get('/team',[AppController::class, 'detail']);
 Route::get('/player/stats/{id}', [Appcontroller::class, 'stats'] );
