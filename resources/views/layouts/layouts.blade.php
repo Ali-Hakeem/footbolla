@@ -78,14 +78,8 @@
         <footer class="bg-body-tertiary text-center text-lg-start">
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-             @auth
-             <form action="/logout" method="POST">
-              @csrf
-              <button type="submit" class="btn btn-primary">Logout</button>
-             </form>
-                @else
+             
                 <p>Made with <a class="text-decoration-none" href="/login">💗 </a>  by Footbolla</p>
-             @endauth
               
               
             </div>
