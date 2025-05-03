@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppController;
-use App\Http\Controllers\AuthController;
+//use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
@@ -38,9 +38,9 @@ Route::get('/team',[AppController::class, 'detail']);
 Route::get('/player/stats/{id}', [Appcontroller::class, 'stats'] );
 
 
-Route::get('/login', [AuthController::class, 'index'])->name('login');
-Route::post('/login', [AuthController::class, 'authenticate']);
-Route::post('/logout', [AuthController::class, 'logout']);
+//Route::get('/login', [AuthController::class, 'index'])->name('login');
+//Route::post('/login', [AuthController::class, 'authenticate']);
+//Route::post('/logout', [AuthController::class, 'logout']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 Route::get('/dashboard/player/', [WebController::class, 'player'])->name('player')->middleware('auth');
