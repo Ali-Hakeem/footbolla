@@ -5,7 +5,7 @@
     <div class="container py-5 col-xxl-6 text-uppercase">
         <h2 class="text-center"><b><i>PES Player <span class="text-warning">Database</span> Unofficial</i></b></h2>
         
-        <div class="container">
+        <!--<div class="container">
             <div class="row">
                 <div class="w-full">
                     <form action="/player/search" method="GET">
@@ -223,9 +223,24 @@
             <div>
                 <p class="text-capitalize text-center">Footbolla was developed for educational purposes.</p>
             </div> 
-        </div>  
+        </div>  -->
         
+        <style>
+          body { text-align: center; padding: 150px; }
+          h1 { font-size: 50px; }
+          body { font: 20px Helvetica, sans-serif; color: #333; }
+          article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+          a { color: #dc8100; text-decoration: none; }
+          a:hover { color: #333; text-decoration: none; }
+        </style>
         
+        <article>
+            <h1>We&rsquo;ll be back soon!</h1>
+            <div>
+                <p>Sorry, we're performing some maintenance at the moment.Otherwise we'll be back online shortly!</p>
+                <p>Footbolla</p>
+            </div>
+        </article>
 
     </section>
 @endsection
